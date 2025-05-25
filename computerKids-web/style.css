@@ -1,0 +1,21 @@
+h1{
+    color: green;
+    font-family: sans-serif;
+}
+
+ul{
+    list-style-image: url('/computerKids-web/images/pointer-icon.png');
+}
+ol {
+    list-style-type: upper-roman;
+}
+#menu-bar a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: aquamarine;
+    
+}
+#menu-bar a:hover {
+    background-color: aqua;
+    color: #fff;
+}
