@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h1>Welcome, Please Login</h1>
+
+  <form onsubmit="verifyUser(event)">
+    <label for="usernameInput">Username: </label>
+    <input type="text" id="usernameInput" /><br>
+
+    <label for="passwordInput">Password: </label>
+    <input type="password" id="passwordInput" /><br>
+
+    <p id="message"></p>
+    <button type="submit">Login</button>
+  </form>
+
+  <script>
+    function verifyUser(event) {
+      event.preventDefault();
+      
+      var username = document.getElementById("usernameInput").value;
+      var password = document.getElementById("passwordInput").value;
+      checkUserCreds(username, password);
+
+      function checkUserCreds(username, password) {
+        var systemUserName = "James";
+        var systemPassword = "007";
+
+        if (username === systemUserName && password === systemPassword) {
+          document.getElementById("message").innerHTML = "Successfully logged in!";
+        } else {
+          document.getElementById("message").innerHTML = "Invalid username or password.";
+        }
+      }
+    }
+  </script>
+</body>
+</html>
