@@ -1,0 +1,45 @@
+
+table{
+   color: #fff;
+   text-align: center;
+   border-collapse: collapse;
+   font: normal 1.2em 'Courier New', Courier, monospace;
+}
+tr{
+    height: 16.02vh;
+    background-color: #4e494d;
+}
+td {
+    width: 25vw;
+    border: 1px solid #4e494d;
+}
+#inputBox {
+    width: 90%;
+    height: 90%;
+    background-color: fff;
+    color: black;
+    font: normal 1.2em 'Courier New', Courier, monospace;
+    border: none;
+    outline: none;
+}
+.digitbtn{
+    background-color: #4e494d;
+    color: #fff;
+    border: none;
+    font: normal 1.2em 'Courier New', Courier, monospace;
+   
+}
+.operatorbtn{
+    background-color: yellowgreen;
+    color: #fff;
+    border: none;
+    font-weight: bolder;
+    font: normal 1.2em 'Courier New', Courier, monospace;
+    
+}
+.cancelBtn{
+    background-color: blueviolet !important;
+    color: #fff;
+    border: none;
+    font: normal 1.2em 'Courier New', Courier, monospace;
+}
